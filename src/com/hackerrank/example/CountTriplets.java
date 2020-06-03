@@ -16,7 +16,7 @@ public class CountTriplets {
         System.out.println("enter the ration");
         long r = scanner.nextLong();
         long result = countTriplet(arr, r);
-        System.out.println("result =" + result);
+        System.out.println("result =  " + result);
         scanner.close();
     }
 
