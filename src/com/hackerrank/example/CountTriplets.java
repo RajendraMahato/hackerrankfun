@@ -21,7 +21,6 @@ public class CountTriplets {
     }
 
     static long countTriplet(List<Long> arr, long r) {
-
         Map<Long, Long> rightMap = new HashMap<>();
         Map<Long, Long> leftMap = new HashMap<>();
         for (long item : arr) {
